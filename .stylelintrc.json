@@ -1,4 +1,7 @@
 {
+  "ignoreFiles": [
+    "dist/**/*.css"
+  ],
   "overrides": [
     {
       "customSyntax": "postcss-scss",
