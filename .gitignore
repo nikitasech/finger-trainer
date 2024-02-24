@@ -1,0 +1,30 @@
+# Файлы и папки операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы редактора
+.idea
+*.sublime*
+.vscode
+!.vscode/extensions.json
+
+# Вспомогательные файлы
+node_modules
+logs
+*.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Собранные файлы
+dist
+dist-ssr
+*.local
+build
