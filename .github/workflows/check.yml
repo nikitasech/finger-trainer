@@ -1,28 +1,22 @@
+name: Check
 on:
-  push:
+  pull_request:
     branches:
       - master
-  pull_request:
-    branches: '*'
-
-name: Project check
 jobs:
   check:
-    name: Compliance check
+    name: Check
     runs-on: ubuntu-latest
     steps:
-    - name: Set up Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: '20'
-
-    - uses: actions/checkout@master
-      name: Checkout
-
-    - name: Install dependencies
-      run: |
-        npm install
-
-    - name: Run checks
-      run: |
-        npm run lint
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.x
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+      - name: Install dependencies
+        run: npm ci
+      - name: Run checks
+        run: npm run lint
