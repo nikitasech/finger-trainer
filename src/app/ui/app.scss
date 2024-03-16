@@ -1,22 +1,2 @@
-.header {
-  font-family: "Arial", serif;
-}
-
-.button {
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  font-weight: 700;
-  color: #ffffff;
-  background-color: #00b758;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: ease-out 0.15s;
-
-  &:hover {
-    transform: translateY(-1px);
-    opacity: 0.8;
-  }
-}
+@use "./../assets/styles/fonts.scss";
+@use "./../assets/styles/global.scss";

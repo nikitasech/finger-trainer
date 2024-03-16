@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './app.scss';
+import './App.scss';
 
 export default function App(): JSX.Element {
   const [count, setCount] = useState(0);

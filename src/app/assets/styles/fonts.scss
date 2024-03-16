@@ -1,0 +1,43 @@
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Comfortaa";
+
+  font-display: swap;
+  src:
+    url("/src/app/assets/fonts/comfortaaRegular.woff2") format("woff2"),
+    url("/src/app/assets/fonts/comfortaaRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Comfortaa";
+
+  font-display: swap;
+  src:
+    url("/src/app/assets/fonts/comfortaaBold.woff2") format("woff2"),
+    url("/src/app/assets/fonts/comfortaaBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Wix Madefor Display";
+
+  font-display: swap;
+  src:
+    url("/src/app/assets/fonts/wixMadeforDisplayRegular.woff2") format("woff2"),
+    url("/src/app/assets/fonts/wixMadeforDisplayRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Wix Madefor Display";
+
+  font-display: swap;
+  src:
+    url("/src/app/assets/fonts/wixMadeforDisplayBold.woff2") format("woff2"),
+    url("/src/app/assets/fonts/wixMadeforDisplayBold.ttf") format("truetype");
+}
